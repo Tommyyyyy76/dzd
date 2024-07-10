@@ -1,0 +1,70 @@
+.parent {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start; 
+}
+
+/* Style de la boîte flex */
+.cont {
+    border:3px solid purple;
+    margin: 70px;
+    padding: 80px;
+    padding-top: 60px;
+    border-radius: 30px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 350px;
+    width: 350px;
+    background-color: #E6E5E5;
+}
+
+.button{
+    cursor: pointer;
+    padding: 17px;
+    border-radius: 5px;
+    border: none;
+    background-color: pink;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    width: 90px;
+    
+  }
+
+  .input{
+    padding: 17px;
+  border-radius: 5px;
+  border: 2px solid #E6E5E5;
+  color: black;
+  font-size: 17px;
+  background-color: white;
+  }
+
+  .aa{
+    padding-top: 30px;
+  }
+
+  .list{
+    font-size: 23px;
+    color:blueviolet;
+    font-weight: bold;
+  }
+
+  .hc{
+font-size: 36px;
+text-align: center;
+align-items: center;
+width: 100%;
+background-color: white;
+color: blue;
+  }
+
+.btn{
+    display: flex;
+    border: 3px solid black;
+    padding: 180px;
+    margin: 150px
+}
